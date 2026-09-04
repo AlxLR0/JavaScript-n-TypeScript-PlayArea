@@ -10,7 +10,7 @@ export interface Hero{
 // type Owner = 'DC' | 'Marvel';
 
 // el enum es una forma de definir un tipo de dato que solo puede tener ciertos valores, en este caso 'DC' o 'Marvel', y se puede usar en lugar del type Owner
-enum Owner {
+export enum Owner {
     DC = 'DC',
     Marvel = 'Marvel'
 }
